@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLogic\CommandPromptUtils.cs" />
+    <Compile Include="Models\Assignment.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\PrivateSchool.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentsPerClass.cs" />
     <Compile Include="Models\Trainer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

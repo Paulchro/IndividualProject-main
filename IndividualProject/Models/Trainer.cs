@@ -15,13 +15,13 @@ namespace IndividualProject.Models
         public string FirstName 
         { 
             get { return (this._firstname); } 
-            set { this._firstname = value.ToUpper(); } 
+            set { this._firstname = value.ToUpper() ?? string.Empty; } 
         }
 
         public string LastName
         {
             get { return (this._lastname);  }
-            set { this._lastname = value.ToUpper(); }
+            set { this._lastname = value.ToUpper() ?? string.Empty; }
         }
 
         public string Subject
